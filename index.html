@@ -7,6 +7,7 @@
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 	</style>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -23,21 +24,21 @@
 			<nav class="navigation">
 				<ul class="menu">
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="">QUIEN SOY</a></li>
-					<li><a href="">SERVICIOS</a>
+					<li><a href="#quienSoy">QUIEN SOY</a></li>
+					<li><a href="galeria.html">SERVICIOS</a>
 						<ul class="submenu">
-							<li><a href="">Diseño gráfico</a></li>
-							<li><a href="">Diseño web</a></li>
-							<li><a href="">Editorial</a></li>
+							<li><a href="galeria.html">Diseño gráfico</a></li>
+							<li><a href="galeria.html">Diseño web</a></li>
+							<li><a href="galeria.html">Editorial</a></li>
 						</ul>
 					</li>
-					<li><a href="">CONTACTO</a></li>
+					<li><a href="#contactoMail">CONTACTO</a></li>
 				</ul>
 			</nav>
 
 		</header>
 
-		<section class="quien-soy">
+		<section id="quienSoy" class="quien-soy">
 			
 			<div class="profile">
 				<div class="profilePic">
@@ -103,7 +104,7 @@
 					<img src="img/art1.jpg" alt="">
 				</div>
 				<div class="info">
-					<h4>Diseño gráfico</h4>
+					<h4><a href="galeria.html">Diseño gráfico</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eos iure laborum commodi in laudantium.</p>
 				</div>
 			</article>
@@ -113,7 +114,7 @@
 					<img src="img/art2.jpg" alt="">
 				</div>
 				<div class="info">
-					<h4>Trabajos destacados</h4>
+					<h4><a href="galeria.html">Diseño Web</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eos iure laborum commodi in laudantium.</p>
 				</div>
 			</article>
@@ -123,16 +124,16 @@
 					<img src="img/art3.jpg" alt="">
 				</div>
 				<div class="info">
-					<h4>Novedades</h4>
+					<h4><a href="galeria.html">Editorial</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eos iure laborum commodi in laudantium.</p>
 				</div>
 			</article>
 
 		</section>
 
-		<footer>
+		<footer class="mainFooter">
 			<div class="mail">
-				<p>contacto@misitio.com</p>
+				<a href="mailto:contacto@misitio.com?Subject=Hello%20again" target="_top" id="contactoMail">contacto@misitio.com</a>
 			</div>
 
 			<div class="redes-bottom">
